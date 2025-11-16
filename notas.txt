@@ -1,0 +1,14 @@
+Abre tu terminal dentro del entorno virtual (venv-dds4) y asegúrate de estar en la carpeta del proyecto:
+cd "C:\Users\Anatnas\Documents\DDSIV Python\DDSIV\Notas Unison"
+
+Ejecuta la aplicación Flask:
+python notasunison.py
+
+Verifica la salida en la terminal:
+Generalmente se muestra algo como:
+ * Serving Flask app 'notasunison'
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000
+
+Abre un navegador y entra a:
+http://127.0.0.1:5000

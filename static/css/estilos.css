@@ -1,0 +1,97 @@
+/* ==========================
+   Estilos generales para todas las páginas
+   ========================== */
+
+/* Fuente y color de fondo general */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* Fuente legible */
+    background-color: #f8f9fa;
+    /* Color de fondo suave */
+    color: #333;
+    /* Color de texto principal */
+}
+
+/* NavBar personalizada */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Sombra ligera */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 900px;
+    /* Ancho máximo */
+}
+
+/* Logo de la universidad */
+img.img-fluid {
+    border-radius: 8px;
+    /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra ligera */
+}
+
+/* Listas de integrantes */
+.list-group-item {
+    background-color: #fff;
+    /* Fondo blanco */
+    border: 1px solid #dee2e6;
+    /* Borde sutil */
+    margin-bottom: 5px;
+    /* Separación entre items */
+}
+
+/* Formularios */
+.nota-form {
+    max-width: 600px;
+    /* Limita ancho del formulario */
+    margin: 0 auto;
+    /* Centra horizontalmente */
+    padding: 20px;
+    background-color: #ffffff;
+    /* Fondo blanco */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Sombra */
+}
+
+/* Campos de formulario */
+form input,
+form textarea,
+form select {
+    width: 100%;
+    /* Ocupa todo el ancho disponible */
+    padding: 0.5rem;
+    /* Espaciado interno */
+    margin-bottom: 1rem;
+    /* Separación entre campos */
+    border: 1px solid #ced4da;
+    /* Borde gris */
+    border-radius: 5px;
+    /* Bordes redondeados */
+}
+
+/* Botones generales */
+form button {
+    background-color: #007bff;
+    /* Azul primario */
+    color: #fff;
+    /* Texto blanco */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}
+
+form button:hover {
+    background-color: #0056b3;
+    /* Azul más oscuro al pasar el mouse */
+}
+
+/* Botón de tipo success en formularios */
+button.btn-success {
+    font-weight: bold;
+    /* Negrita */
+}
